@@ -97,3 +97,66 @@
 }
 
 /* Universal Navbar Styles ENDS */
+
+
+
+/* Image styles */
+
+/* Animation Styles */
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Image Slider Styles */
+  
+  .carousel-inner {
+    animation: fadeIn 1s ease-out; /* Apply the fade-in animation to the carousel items */
+  }
+  
+  .carousel-caption {
+    animation: fadeIn 1s ease-out; /* Apply the fade-in animation to the caption */
+  }
+  
+  /* Additional Styles */
+  
+  #slogan {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #line99 {
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    #line99 {
+      font-size: 14px;
+      line-height: 1.3;
+      margin: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #line99 {
+      font-size: 12px;
+      line-height: 1.2;
+      margin: 2px;
+    }
+  }
+  
