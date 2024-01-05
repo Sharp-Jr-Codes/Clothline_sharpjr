@@ -1,1 +1,0 @@
-// ALL js codes to be writtten here!!
