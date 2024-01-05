@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
 // cart ends
 
 
+
+// marquee starts
 const brandMarquee = document.getElementById('brandMarquee');
   const slider = document.querySelector('.slider');
 
@@ -43,3 +45,4 @@ const brandMarquee = document.getElementById('brandMarquee');
   brandMarquee.addEventListener('finish', () => {
     brandMarquee.scrollLeft = 0;
   });
+  // marquee ends
