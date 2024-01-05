@@ -632,3 +632,189 @@ section {
     }
   }
 /* new arrival section ends */
+
+
+/* Testimonials starts */
+/* Testimonials styles */
+
+.testimonials {
+  padding-bottom: 2.2em;
+  text-align: center;
+}
+
+.testimonials h1 {
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+  
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  margin: 4rem 0 0 0;
+}
+
+.testimonials .test-body {
+  padding: 1em;
+}
+
+.testimonials .item {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.testimonials img {
+  width: 11.8em;
+  height: 9.8em;
+  border-radius: 10%;
+}
+
+.testimonials .name {
+ color: black;
+ font-family: 'Times New Roman', Times, serif;
+
+}
+
+.testimonials .desig {
+  font-size: 0.7em;
+  padding: 0.5em 0;
+  color: black;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.testimonials .share {
+  margin: 0 auto;
+  width: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials i {
+  color: #bfbfbf;
+  padding: 0.5em 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.testimonials i:hover {
+  color: grey;
+}
+
+.testimonials p {
+  max-width: 27em;
+  margin: 0 auto;
+  font-size: 0.8em;
+}
+
+.testimonials button {
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  padding: 0.8em 2em;
+  border-radius: 1em;
+  border: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.testimonials button:hover {
+  background-color: #444;
+}
+#btnnn{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 38.4rem) {
+  .testimonials {
+    font-size: 1.2em;
+  }
+
+  .testimonials .test-body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testimonials p {
+    text-align: left;
+    padding: 1em;
+  }
+}
+
+/* Testimonials ends */
+
+
+
+
+/* brands starts */
+.trending-brands {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trending-brands h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.slider-container {
+  overflow: hidden;
+}
+
+.slider {
+  list-style: none;
+  display: flex;
+  /* animation: slide 110s linear infinite; */
+  padding: 0;
+  margin: 0;
+}
+
+.slider li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 230px; /* Adjust this width as needed */
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  width: 94px; /* Adjust this width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .trending-brands h2 {
+    font-size: 20px;
+  }
+
+  .slider li {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .slider img {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* brands ends */
+
+
+
+
+
+
+
+
+
+
