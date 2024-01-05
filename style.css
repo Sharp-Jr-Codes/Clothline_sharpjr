@@ -584,6 +584,7 @@ section {
 .about-content {
     max-width:800px;
     margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
   }
   .about-content h2 {
     font-size: 30px;
@@ -606,7 +607,7 @@ section {
     padding-right:60px;
   }
   
-  .btn-black {
+  /* .btn-black {
     color:#fff;
     background-color:rgba(0,0,0,1);
     transition: 0.5s;
@@ -617,7 +618,7 @@ section {
     color:#fff;
     background-color:rgba(0,0,0,0.8);
     transition: 0.5s;
-  }
+  } */
   
   @media (max-width:576px) {
     .about-content {
