@@ -1,0 +1,361 @@
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Body styles */
+body {
+  min-height: 100%;
+  background-color: white;
+}
+
+/* Heading 1 styles */
+h1 {
+  letter-spacing: -0.063rem;
+}
+
+/* Link styles */
+a {
+  color: black;
+  text-decoration: unset;
+}
+
+/* Main container for login */
+.logo {
+  max-width: 4.9rem;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+.login-root {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Background styling */
+.loginbackground {
+  min-height: 692px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Flex container styles */
+.flex-flex {
+  display: flex;
+}
+
+/* Center alignment styles */
+.align-center {
+  align-items: center; 
+}
+
+/* Center alignment for both axes */
+.center-center {
+  align-items: center;
+  justify-content: center;
+}
+
+/* Box styles */
+.box-root {
+  box-sizing: border-box;
+}
+
+/* Flex direction column styles */
+.flex-direction--column {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+/* Grid container for background */
+.loginbackground-gridContainer {
+  display: grid;
+  grid-template-columns: [start] 1fr [left-gutter] repeat(16, 86.6px) [left-gutter] 1fr [end];
+  grid-template-rows: [top] 1fr [top-gutter] repeat(8, 64px) [bottom-gutter] 1fr [bottom];
+  justify-content: center;
+  margin: 0 -2%;
+  transform: rotate(-12deg) skew(-12deg);
+}
+
+/* Divider styles */
+.box-divider--light-all-2 {
+  box-shadow: inset 0 0 0 2px #e3e8ee;
+}
+
+/* Background color styles */
+.box-background--blue {
+  background-color: grey;
+}
+
+.box-background--white {
+  background-color: #ffffff; 
+}
+
+/* Typography */
+.box-background--gray100 {
+  background-color: black;
+}
+
+.box-background--cyan200 {
+  background-color: black;
+}
+
+/* Padding styles */
+.padding-top--64 {
+  padding-top: 64px;
+}
+
+.padding-top--24 {
+  padding-top: 24px;
+}
+
+.padding-top--48 {
+  padding-top: 48px;
+}
+
+.padding-bottom--24 {
+  padding-bottom: 24px;
+}
+
+.padding-horizontal--48 {
+  padding: 48px;
+}
+
+.padding-bottom--15 {
+  padding-bottom: 15px;
+}
+
+/* Flexbox alignment */
+.flex-justifyContent--center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* Form container styles */
+.formbg {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+/* Typography within form */
+span {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+
+/* Label styles */
+label {
+  margin-bottom: 10px;
+}
+
+/* Reset password link styles */
+.reset-pass a, label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+.reset-pass > a {
+  text-align: right;
+  margin-bottom: 10px;
+  color: red;
+}
+
+/* Grid layout for form */
+.grid--50-50 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+/* Input field styles */
+.field input, select {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+              grey 0px 0px 0px 1px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Checkbox styles */
+.field-checkbox input {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px; 
+  box-shadow: unset;
+  min-height: unset;
+}
+
+.field-checkbox label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+/* SSOLink styles */
+a.ssolink {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Footer link styles */
+.footer-link span {
+  font-size: 14px;
+  text-align: center;
+  color: red;
+}
+
+/* Listing link styles */
+.listing a {
+  color: grey;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+/* Select dropdown styles */
+select {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  outline-color: rgb(84 105 212 / 0.5);
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+              rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+/* Animations */
+.animationRightLeft {
+  animation: animationRightLeft 2s ease-in-out infinite;
+}
+
+.animationLeftRight {
+  animation: animationLeftRight 2s ease-in-out infinite;
+}
+
+.tans3s {
+  animation: animationLeftRight 3s ease-in-out infinite;
+}
+
+.tans4s {
+  animation: animationLeftRight 4s ease-in-out infinite;
+}
+
+/* Keyframe animations */
+@keyframes animationLeftRight {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+} 
+
+@keyframes animationRightLeft {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+} 
+
+/* Popup styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+  color: #333;
+}
+
+.popup p {
+  color: #555;
+  margin: 10px 0;
+}
+
+.popup a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup a:hover {
+  text-decoration: underline;
+}
