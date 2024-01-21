@@ -1179,6 +1179,7 @@ section {
 .site-footer a,
 .footer-links a {
   color: #737373;
+  text-decoration: none;
 }
 
 .site-footer a:hover,
@@ -1200,6 +1201,7 @@ section {
 .social-icons li {
   display: block;
   color: white;
+  
 }
 
 .footer-links.inline li {
